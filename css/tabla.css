@@ -1,0 +1,44 @@
+table {
+	width: 150%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(235, 8, 8, 0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(253, 251, 251, 0.5);
+	color: #141212;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	background-color: rgba(253, 251, 251, 0.9);
+}
+/*
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}*/
